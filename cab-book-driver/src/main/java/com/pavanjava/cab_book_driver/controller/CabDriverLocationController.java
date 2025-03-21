@@ -29,7 +29,7 @@ public class CabDriverLocationController {
             Thread.sleep(1000);
             i--;
         }
-        return new ResponseEntity(Map.of("message", "Location Updated"), HttpStatus.OK);
+        return new ResponseEntity(Map.of("message", "Location Updated from driver"), HttpStatus.OK);
     }
 
 }
